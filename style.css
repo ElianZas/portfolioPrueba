@@ -18,15 +18,11 @@ time, mark, audio, video {
 	font-family: serif;
 	vertical-align: baseline;
 }
-body{
-	background-color: antiquewhite;
-}
 
 .redesSociales{
 	padding:12px;
-	background-color: rgb(134, 184, 185);
+	background-color: bisque;
 }
-
 .linea:after{
 	content: "";
     display: block;
@@ -35,4 +31,13 @@ body{
     margin: 0px auto;
     background-color: black;
 }
+.offcanvas.offcanvas-start{
+	width:300 px;
+}
 
+@media(max-width:768px){
+	.nav-item:hover{
+		background-color: white;
+		color:black;
+	}
+}
