@@ -21,7 +21,6 @@ time, mark, audio, video {
 
 .redesSociales{
 	padding:12px;
-	background-color: bisque;
 }
 .linea:after{
 	content: "";
@@ -29,7 +28,7 @@ time, mark, audio, video {
     width: 1px;
     height: 300px;
     margin: 0px auto;
-    background-color: black;
+    background-color: white;
 }
 .offcanvas.offcanvas-start{
 	width:300 px;
