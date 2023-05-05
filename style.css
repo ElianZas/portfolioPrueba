@@ -18,9 +18,22 @@ time, mark, audio, video {
 	font-family: serif;
 	vertical-align: baseline;
 }
-
+.main{
+	width:100%;
+	height:700px;
+	background-color: #121212;
+	background-image: url(./iconos-imagenes/757530618600.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	
+}
 .redesSociales{
 	padding:12px;
+}
+.acercaDe{
+	width:100%;
+	height:700px;
+	background-color: #121212;
 }
 .linea:after{
 	content: "";
@@ -31,7 +44,16 @@ time, mark, audio, video {
     background-color: white;
 }
 .offcanvas.offcanvas-start{
-	width:300 px;
+	width:300px;
+}
+.bi-github, .bi-linkedin, .bi-instagram{
+	animation-duration: 0.5s;
+    fill: white;
+}
+.bi-github:hover, .bi-linkedin:hover, .bi-instagram:hover{
+    fill: aqua;
+	transition: 0.5s;
+	transform: scale(1.2);
 }
 
 @media(max-width:768px){
