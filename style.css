@@ -31,8 +31,8 @@ time, mark, audio, video {
 	padding:12px;
 }
 .acercaDe{
-	width:100%;
-	height:700px;
+	width:90%;
+	height:100%;
 	background-color: #121212;
 }
 .linea:after{
@@ -56,9 +56,46 @@ time, mark, audio, video {
 	transform: scale(1.2);
 }
 
+.experienciaCards .card{
+	height:max-content
+}
+
 @media(max-width:768px){
 	.nav-item:hover{
 		background-color: white;
 		color:black;
 	}
+	.accordion{
+		width:80%;
+	}
+}
+
+.accordion-button:not(.collapsed){
+	color:inherit;
+	background: #121212;
+	color: #e8e8e8;
+}
+.accordion-button:not(.collapsed)::after{
+	filter:brightness(0%) invert(70%);
+}
+.accordion-button:focus{
+	box-shadow:inherit;
+}
+.accordion{
+	--bs-accordion-bg: dark;
+}
+.accordion-button{
+	color:white;
+}
+.accordion-body{
+	color:white;
+}
+@media(min-width:769px){
+	.accordion{
+		width:100%;
+	}
+}
+
+form{
+	width:80%;
 }
